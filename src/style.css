@@ -1,0 +1,58 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+#count-container{
+    background-color: white;
+    width:500px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border-radius: 10px;
+    border:2px black solid;
+    margin:20px;
+    background-color: black;
+}
+#button{
+    display: flex;
+    gap:10px;
+}
+#button button{
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(220, 243, 74);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+}
+#reach{
+    color:red;
+}
+#count{
+    margin-top: 50px;
+    color:rgb(82, 105, 48)
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#value{
+    background-color: rgb(255, 255, 255);
+    color: rgb(254, 17, 17);
+    height:50px;
+    width:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
